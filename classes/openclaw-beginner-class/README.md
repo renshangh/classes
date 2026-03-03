@@ -1,30 +1,21 @@
-# OpenClaw Beginner Program (Prep + 3 x 1 hour)
+# OpenClaw Beginner Program / OpenClaw 初学者课程
 
-This is a beginner program for live online teaching with a readiness-first rollout.
+This package is now organized into **student** and **teacher** tracks, with bilingual materials (EN + 中文).
 
-## Program Goal
-By the end of Class 3, students can:
-- Set up OpenClaw fundamentals reliably
-- Run practical assistant workflows with tools
-- Build a repeatable agent workflow with validation checks
+## Folder Structure
+- `student/` — student-facing reading order and handouts
+- `teacher/` — instructor planning and delivery ops
+- `classes/` — per-session folders (`prep-class`, `class-1`, `class-2`, `class-3`)
+- `exercises/` — exercise packs
+- `shared/` — shared references
 
-## Program Structure
-- **Prep Class (45-60 min):** logistics, setup, access readiness
-- **Class 1 (60 min):** foundations + first practical win
-- **Class 2 (60 min):** practical workflows + tool usage
-- **Class 3 (60 min):** agentic design + capstone
+## Student Reading Order (required)
+1. `student/1-student-handbook.en.md` (or `.zh.md`)
+2. `student/2-syllabus.en.md` (or `.zh.md`)
+3. `student/pre-class-handout.en.md` (or `.zh.md`)
+4. Session-specific materials in `classes/`
+5. `student/post-class-handout.en.md` (or `.zh.md`) after each class
 
-## Files in this folder
-- `project-plan.md` — overall rollout approach and task breakdown
-- `teacher-guide.md` — instructor-only delivery and operations guide
-- `student-handbook.md` — student-facing handout
-- `student-pre-class-handout.md` — student readiness checklist before class
-- `student-post-class-handout.md` — reinforcement and homework guide after class
-- `prep-class-plan.md` — readiness and logistics session
-- `syllabus.md` — complete program scope
-- `class-1-plan.md` — minute-by-minute plan
-- `class-2-plan.md` — minute-by-minute plan
-- `class-3-plan.md` — minute-by-minute plan
-- `exercises/exercise-pack.md` — assignments + answer guide
-- `handouts/quick-reference.md` — student cheat sheet
-- `learning-material.md` — core framework notes
+## Notes
+- PR-first workflow remains active.
+- Owner approval is required before final merge.
