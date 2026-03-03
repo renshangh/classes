@@ -18,6 +18,8 @@ By the end of Class 3, students can:
 - `project-plan.md` — overall rollout approach and task breakdown
 - `teacher-guide.md` — instructor-only delivery and operations guide
 - `student-handbook.md` — student-facing handout
+- `student-pre-class-handout.md` — student readiness checklist before class
+- `student-post-class-handout.md` — reinforcement and homework guide after class
 - `prep-class-plan.md` — readiness and logistics session
 - `syllabus.md` — complete program scope
 - `class-1-plan.md` — minute-by-minute plan
