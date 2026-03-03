@@ -1,80 +1,74 @@
-# Syllabus: OpenClaw Beginner Class (3 Sessions)
+# Syllabus: OpenClaw Beginner Program (Prep + 3 Sessions)
 
 ## Audience
-Beginners who want to use AI agents for productivity, customer support, marketing, or personal automation.
+Beginners who want to use AI agents for productivity, support, marketing, or personal automation.
 
 ## Prerequisites
-- Basic terminal familiarity (helpful, not required)
-- OpenClaw installed
-- One messaging channel connected (Telegram/Discord/etc.)
+- Basic computer literacy
+- OpenClaw available
+- Telegram access for class communications
+- GitHub account for materials/workflow
 
 ---
 
-## Class 1 — Foundations and First Win
-**Outcome:** Students understand what OpenClaw is and can complete one useful task end-to-end.
+## Prep Class — Logistics and Readiness (45-60 min)
+**Outcome:** All students are setup-ready for hands-on work in Class 1.
 
 ### Topics
-- What is agentic AI?
-- OpenClaw architecture (agent, tools, memory, channels)
-- Session flow and safe operation
-- First practical task: create and organize workspace content
+- Device and access requirements
+- Platform and channel logistics
+- OpenClaw baseline verification
+- Homework support protocol
 
-### Live Demo Ideas
-- Ask agent to create a class/project folder
-- Generate a short document
-- Use basic edits and save outputs
+### Deliverables
+- Completed onboarding checklist
+- Successful baseline interaction test
+- Understanding of support/escalation workflow
+
+---
+
+## Class 1 — Foundations and First Win (60 min)
+**Outcome:** Students complete one useful end-to-end task with clear output.
+
+### Topics
+- Agentic AI basics
+- OpenClaw building blocks (agent, tools, memory, channels)
+- Prompt structure for execution
 
 ### Homework
-- Create one personal workflow prompt template
-- Document one “task you do repeatedly” for class 2
+- Build one reusable prompt template
+- Identify one repeated task for workflow design
 
 ---
 
-## Class 2 — Practical Workflows and Tool Use
-**Outcome:** Students can run multi-step tasks with tool usage and better prompting.
+## Class 2 — Practical Workflows and Tool Use (60 min)
+**Outcome:** Students run a multi-step workflow with quality checks.
 
 ### Topics
-- Prompting for execution vs prompting for explanation
-- Tool-enabled workflows (files, shell, web)
-- Structuring tasks for reliability (clear constraints, expected outputs)
-- Common failure modes and how to recover
-
-### Live Demo Ideas
-- Research + summarize + save notes
-- Build a reusable checklist in markdown
-- Convert rough request into structured output
+- Designing step-based workflows
+- Tool usage patterns (files, shell, web)
+- Failure recovery and retries
 
 ### Homework
-- Build one mini workflow (3-5 steps) and test twice
-- Write what failed and what changed
+- Create and test one 3-5 step workflow twice
+- Document one failure and fix
 
 ---
 
-## Class 3 — Agentic Design and Capstone
-**Outcome:** Students design and run a small, repeatable agent system.
+## Class 3 — Agentic Design and Capstone (60 min)
+**Outcome:** Students build a repeatable real-world workflow.
 
 ### Topics
-- Agentic loop: plan → act → verify → improve
-- Memory and continuity strategies
-- Cost/latency trade-offs
-- Framework: **Performance = Model × Context × Tooling × Budget**
-
-### Live Demo Ideas
-- Build a “daily ops assistant” flow
-- Add validation checks to reduce hallucinations
-- Package workflow into reusable class/project template
+- Plan → Act → Verify → Improve loop
+- Memory continuity basics
+- Performance equation: Model × Context × Tooling × Budget
 
 ### Capstone
-- Each student presents one practical workflow:
-  - objective
-  - inputs
-  - tools used
-  - output format
-  - reliability checks
+- Present one practical workflow with checks and recovery plan
 
 ---
 
 ## Assessment (lightweight)
-- Completion of in-class exercises
-- Capstone clarity and usefulness
-- Ability to troubleshoot one failure case
+- In-class exercise completion
+- Capstone clarity and reproducibility
+- Ability to explain one debugging improvement
