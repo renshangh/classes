@@ -156,7 +156,7 @@ mindmap
 | [ ] D-2 | `Issue template: Blocker / help request` | Template for students to raise blockers during class. | `issue-template`, `epic-D` |
 | [ ] D-3 | `PR template: Content checklist` | PR template enforcing grammar, bilingual check, rubric alignment. | `pr-template`, `epic-D` |
 | [x] D-4 | `Label taxonomy` | Create set of labels (e.g., `student-help`, `content-update`). | `labels`, `epic-D` |
-| [ ] D-5 | `Milestone scheme` [#12](https://github.com/renshangh/classes/issues/12) | Define milestones for class releases (v1.0, v1.1, …). | `milestones`, `epic-D` |
+| [x] D-5 | `Milestone scheme` [#12](https://github.com/renshangh/classes/issues/12) | Define milestones for class releases (v1.0, v1.1, …). | `milestones`, `epic-D` |
 
 ### Epic E – AI Skills Roadmap (OpenClaw)
 | # | Issue Title | Description / Acceptance Criteria | Labels |
