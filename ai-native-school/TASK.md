@@ -5,7 +5,40 @@ Create a reliable, restart-safe, privacy-safe workflow so Sarah can keep progres
 
 ---
 
-## 2) Project Mind Map
+## 2) Operating Policy (Workflow First)
+
+### A. GitHub Issue First (CRITICAL)
+Before taking action on any item in the Tasks list section, **create a GitHub issue first** and then start work under that issue.
+- **If you pick an existing task-list item to work on**:
+  1. Create a GitHub issue for it (or confirm one already exists).
+  2. Add the issue link/ID back into `TASK.md`.
+  3. Only then begin implementation.
+- **If a new problem/task arises during work**:
+  1. Create a GitHub issue first.
+  2. Then proceed with the work under that new issue.
+  3. Update `TASK.md` to reflect the new item + issue link.
+- **Sync Rule**: `TASK.md` must stay synced with GitHub. Every in-progress or planned task should have a corresponding GitHub issue. Close or mark completed tasks in `TASK.md` when the GitHub issue is closed.
+
+### B. Scope Gate (MUST run first each cycle)
+1. Detect chat context:
+   - **Group chat** → public-safe mode only (no personal memory/details)
+   - **Direct/private work session** → full project execution mode
+2. Reject/redirect sensitive tasks if context is group and content is private.
+
+### C. Ralph Loop Cycle (one issue per cycle)
+1. **Pick next item** from backlog (`TASK.md` queue below)
+2. **Create/update branch** for that single item
+3. **Implement** smallest shippable change
+4. **Run checks** (tests/lint/build as available)
+5. **Commit + push** with clear message
+6. **Open or update PR**
+7. **Post concise status**
+8. **Persist state** in files (`TASK.md`, optional `STATUS.md`) so restart can resume
+9. Repeat next cycle
+
+---
+
+## 3) Project Mind Map
 
 ```mermaid
 mindmap
@@ -67,14 +100,14 @@ mindmap
 
 ---
 
-## 3) Assignment Split
+## 4) Assignment Split
 - **Sarah lead:** Epics A, C, E (pedagogy, architecture, skill design)
 - **Aether assist/execute:** Epics B, D, parts of E implementation
 - **Randy approval/steer:** Milestones, priorities, release gates
 
 ---
 
-## 4) Working Queue
+## 5) Working Queue
 
 ### DONE
 - [x] **Define and finalize this workflow** with Randy (owner approval)
@@ -90,7 +123,7 @@ mindmap
 
 ---
 
-## 5) Detailed Roadmap (Epics A–F)
+## 6) Detailed Roadmap (Epics A–F)
 
 ### Epic A – Teaching Delivery Operating System
 | # | Issue Title | Description / Acceptance Criteria | Labels |
@@ -145,6 +178,6 @@ mindmap
 
 ---
 
-## 6) Immediate Next Action
+## 7) Immediate Next Action
 1. Resolve `gog` authentication for Issue #9.
 2. Complete D-5 (GitHub Milestone Scheme).
