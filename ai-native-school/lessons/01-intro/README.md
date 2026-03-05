@@ -26,7 +26,7 @@ Welcome! This is the first official lesson in the school. We are moving from "Us
 | 🇺🇸 English | 🇨🇳 中文 |
 | :--- | :--- |
 | **Step 1: Telegram Connection** | **第一步：连接 Telegram** |
-| Ensure you are connected to the class bot for all materials and support. | 确保你已连接到班级机器人以获取所有资料和支持。 |
+| Ensure you are connected to the class bot (**@Sarah_closedclawbot**) for all materials and support. | 确保你已连接到班级机器人 (**@Sarah_closedclawbot**) 以获取所有资料和支持。 |
 
 ---
 
