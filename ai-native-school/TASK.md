@@ -119,7 +119,6 @@ mindmap
 - (none)
 
 ### NEXT
-- [ ] **Epic D-4 & D-5** — Setup Label Taxonomy and Milestone Scheme on GitHub
 - [ ] **Epic C-1 & C-2** — Define Bilingual Content Standard and Lesson Skeleton
 
 ---
@@ -180,5 +179,5 @@ mindmap
 ---
 
 ## 7) Immediate Next Action
-1. Resolve `gog` authentication for Issue #9.
-2. Complete D-5 (GitHub Milestone Scheme).
+1. Create a GitHub issue for Epic C-1 (Bilingual Standard).
+2. Begin implementation of side-by-side markdown schema.
