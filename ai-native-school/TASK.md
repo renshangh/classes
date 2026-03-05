@@ -113,9 +113,10 @@ mindmap
 - [x] **Define and finalize this workflow** with Randy (owner approval)
 - [x] **Issue #5** — Implement Student-facing delivery architecture (EN/ZH)
 - [x] **PR #11** — Initialize roadmap and move TASK.md to ai-native-school/
+- [x] **Issue #9** — Set up Google Drive folder for classroom infrastructure
 
 ### IN_PROGRESS
-- [ ] **Issue #9** — Set up Google Drive folder for classroom infrastructure (Blocked: Needs `gog` auth)
+- (none)
 
 ### NEXT
 - [ ] **Epic D-4 & D-5** — Setup Label Taxonomy and Milestone Scheme on GitHub
