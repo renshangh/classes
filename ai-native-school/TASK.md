@@ -116,10 +116,11 @@ mindmap
 - [x] **Issue #9** — Set up Google Drive folder for classroom infrastructure
 
 ### IN_PROGRESS
-- (none)
+- [ ] **Marketing Strategy & UI Definition** — Draft strategy and Telegram student UI plan (Linked to Epic B & Marketing)
 
 ### NEXT
-- [ ] **Epic C-1 & C-2** — Define Bilingual Content Standard and Lesson Skeleton
+- [ ] **Epic C-2** — Define Lesson Skeleton [#17](https://github.com/renshangh/classes/issues/17)
+- [ ] **Epic B-1** — Define Telegram Student UI & Interaction Model
 
 ---
 
@@ -179,5 +180,6 @@ mindmap
 ---
 
 ## 7) Immediate Next Action
-1. Create GitHub issue for Epic C-2 (Lesson Skeleton).
-2. Begin implementation of standardized folder structure.
+1. Draft Proposal for **Marketing Strategy** (High-level goals, channels).
+2. Draft Proposal for **Telegram Student UI** (Epic B-1: Interaction model).
+3. Implement **Standard Lesson Skeleton** (Epic C-2).
