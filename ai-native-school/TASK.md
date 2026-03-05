@@ -131,8 +131,15 @@ mindmap
 - [ ] **Lesson Generator Skill (E-3)** — Implementation of EN/ZH lesson pack generation [#36](https://github.com/renshangh/classes/issues/36)
 - [ ] **Class Insights Skill (E-4)** — Implementation of poll/blocker summarization [#37](https://github.com/renshangh/classes/issues/37)
 
-### NEXT
-- [ ] **Epic C-3** — Template: Assignment & rubric
+### FUTURE
+- [ ] **AI Instructor Integration** — Transitioning from bot assistant to primary teaching delivery role.
+- [ ] **Dynamic Curriculum Adaptation** — Real-time content adjustment based on student checkpoint data.
+
+### EPIC H – AI Pedagogy & Auto-Instruction
+| # | Issue Title | Description / Acceptance Criteria | Labels |
+|---|-------------|-----------------------------------|--------|
+| [ ] H-1 | `Bot-Teacher Persona` | Define the voice, tone, and empathy-protocol for the autonomous bot teacher. | `pedagogy`, `epic-H` |
+| [ ] H-2 | `Lecture-to-Content Automation` | Flow to convert raw developer lectures into the Bilingual Side-by-Side standard. | `automation`, `epic-H` |
 
 ---
 
