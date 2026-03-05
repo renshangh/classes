@@ -177,6 +177,14 @@ mindmap
 | [ ] F-3 | `Release process: Versioned packs` | Document how to tag releases (v1.0, v1.1…) and generate notes. | `release`, `versioning`, `epic-F` |
 | [ ] F-4 | `Pilot: New AI tool integration` | Design pilot process for adding new AI tools to the school stack. | `pilot`, `epic-F` |
 
+### Epic G – Marketing Strategy & Outreach
+| # | Issue Title | Description / Acceptance Criteria | Labels |
+|---|-------------|-----------------------------------|--------|
+| [ ] G-1 | `Strategy: High-level marketing plan` | Define target audience, core messaging, and primary channels (Telegram/Twitter). | `marketing`, `epic-G` |
+| [ ] G-2 | `Content: Lead magnet / Free lesson` | Draft a high-value free resource or "Lesson 0" to attract initial students. | `marketing`, `content`, `epic-G` |
+| [ ] G-3 | `Social: Outreach & engagement` | Set up Twitter/X profile and Telegram announcement channel. | `marketing`, `social`, `epic-G` |
+| [ ] G-4 | `Conversion: Enrollment workflow` | Define how a student moves from "interested" to "enrolled" (Google Form/Bot flow). | `marketing`, `process`, `epic-G` |
+
 ---
 
 ## 7) Immediate Next Action
