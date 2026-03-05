@@ -118,8 +118,9 @@ mindmap
 - [x] **Epic B-1** — Define Telegram Student UI & Interaction Model [#18](https://github.com/renshangh/classes/issues/18)
 - [x] **Epic C-2** — Define Standard Lesson Skeleton [#17](https://github.com/renshangh/classes/issues/17)
 
+- [x] **Build Lesson 01** — Introduction to AI-Native School curriculum [#20](https://github.com/renshangh/classes/issues/20)
+
 ### IN_PROGRESS
-- [ ] **Build Lesson 01** — Introduction to AI-Native School curriculum [#20](https://github.com/renshangh/classes/issues/20)
 - [ ] **Setup Support Triage** — Implementation of Telegram student support bot [#21](https://github.com/renshangh/classes/issues/21)
 
 ### NEXT
@@ -132,9 +133,9 @@ mindmap
 ### Epic A – Teaching Delivery Operating System
 | # | Issue Title | Description / Acceptance Criteria | Labels |
 |---|-------------|-----------------------------------|--------|
-| [ ] A-1 | `Runbook: Live class workflow` | Document procedures (check-ins, start-up, wrap-up). Include Telegram & Google Meet steps. | `process`, `epic-A` |
-| [ ] A-2 | `Runbook: Demo protocol` | Define happy-path demo flow + failure-recovery steps. Checklist for instructors. | `process`, `demo`, `epic-A` |
-| [ ] A-3 | `Runbook: Exercise protocol` | Template for timed labs, pass-criteria, and submission mechanics. | `process`, `exercise`, `epic-A` |
+| [ ] A-1 | `Runbook: Live class workflow` [#23](https://github.com/renshangh/classes/issues/23) | Document procedures (check-ins, start-up, wrap-up). Include Telegram & Google Meet steps. | `process`, `epic-A` |
+| [ ] A-2 | `Runbook: Demo protocol` [#24](https://github.com/renshangh/classes/issues/24) | Define happy-path demo flow + failure-recovery steps. Checklist for instructors. | `process`, `demo`, `epic-A` |
+| [ ] A-3 | `Runbook: Exercise protocol` [#24](https://github.com/renshangh/classes/issues/24) | Template for timed labs, pass-criteria, and submission mechanics. | `process`, `exercise`, `epic-A` |
 | [ ] A-4 | `Runbook: In-class issue triage` | Outline how to capture student issues and resolve in real time. SLA ≤ 5 min. | `process`, `triage`, `epic-A` |
 
 ### Epic B – Student Experience System
@@ -156,8 +157,8 @@ mindmap
 ### Epic D – GitHub Workflow + Automation
 | # | Issue Title | Description / Acceptance Criteria | Labels |
 |---|-------------|-----------------------------------|--------|
-| [ ] D-1 | `Issue template: Homework submission` | GitHub issue template for students to submit homework. | `issue-template`, `epic-D` |
-| [ ] D-2 | `Issue template: Blocker / help request` | Template for students to raise blockers during class. | `issue-template`, `epic-D` |
+| [ ] D-1 | `Issue template: Homework submission` [#25](https://github.com/renshangh/classes/issues/25) | GitHub issue template for students to submit homework. | `issue-template`, `epic-D` |
+| [ ] D-2 | `Issue template: Blocker / help request` [#25](https://github.com/renshangh/classes/issues/25) | Template for students to raise blockers during class. | `issue-template`, `epic-D` |
 | [ ] D-3 | `PR template: Content checklist` | PR template enforcing grammar, bilingual check, rubric alignment. | `pr-template`, `epic-D` |
 | [x] D-4 | `Label taxonomy` | Create set of labels (e.g., `student-help`, `content-update`). | `labels`, `epic-D` |
 | [x] D-5 | `Milestone scheme` [#12](https://github.com/renshangh/classes/issues/12) | Define milestones for class releases (v1.0, v1.1, …). | `milestones`, `epic-D` |
@@ -165,8 +166,8 @@ mindmap
 ### Epic E – AI Skills Roadmap (OpenClaw)
 | # | Issue Title | Description / Acceptance Criteria | Labels |
 |---|-------------|-----------------------------------|--------|
-| [ ] E-1 | `Skill matrix: Current vs needed` | Audit existing skills and list gaps (Homework Reviewer, Lesson Gen). | `analysis`, `epic-E` |
-| [ ] E-2 | `Skill: Homework reviewer` | Implement skill to receive PR, run rubric checks, post feedback. | `skill`, `homework`, `epic-E` |
+| [ ] E-1 | `Skill matrix: Current vs needed` [#26](https://github.com/renshangh/classes/issues/26) | Audit existing skills and list gaps (Homework Reviewer, Lesson Gen). | `analysis`, `epic-E` |
+| [ ] E-2 | `Skill: Homework reviewer` [#26](https://github.com/renshangh/classes/issues/26) | Implement skill to receive PR, run rubric checks, post feedback. | `skill`, `homework`, `epic-E` |
 | [ ] E-3 | `Skill: Lesson pack generator` | Build skill to produce EN/ZH lesson folders from high-level outline. | `skill`, `generation`, `epic-E` |
 | [ ] E-4 | `Skill: Class insights summarizer` | Aggregate checkpoint polls and blockers for the instructor. | `skill`, `insights`, `epic-E` |
 | [ ] E-5 | `Skill: EN-ZH Pedagogy translator` | Translation skill tuned for educational content. | `skill`, `pedagogy`, `epic-E` |
