@@ -114,12 +114,15 @@ mindmap
 - [x] **Issue #5** — Implement Student-facing delivery architecture (EN/ZH)
 - [x] **PR #11** — Initialize roadmap and move TASK.md to ai-native-school/
 - [x] **Issue #9** — Set up Google Drive folder for classroom infrastructure
+- [x] **Epic C-1** — Define Bilingual Content Standard [#14](https://github.com/renshangh/classes/issues/14)
+- [x] **Epic B-1** — Define Telegram Student UI & Interaction Model [#18](https://github.com/renshangh/classes/issues/18)
+- [x] **Epic C-2** — Define Standard Lesson Skeleton [#17](https://github.com/renshangh/classes/issues/17)
 
 ### IN_PROGRESS
-- [ ] **Telegram UI Definition** — Draft plan for the Telegram student interaction model (Epic B-1)
+- [ ] **Infrastructure Integration** — Finalizing the connection between the Telegram UI and Lesson Skeleton (Epic B & C)
 
 ### NEXT
-- [ ] **Epic C-2** — Define Lesson Skeleton [#17](https://github.com/renshangh/classes/issues/17)
+- [ ] **Epic G** — Strategy: External Marketing Project (External focus)
 
 ---
 
