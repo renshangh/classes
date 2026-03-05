@@ -130,6 +130,7 @@ mindmap
 ### IN_PROGRESS
 - [ ] **QA Simulation: Pilot Lesson 01** — Sub-agent persona test for content delivery and interaction [#46](https://github.com/renshangh/classes/issues/46)
   *   **Bugs Found**: [#48](https://github.com/renshangh/classes/issues/48)
+- [ ] **Dynamic Heartbeat: Monitor All PRs** — Move from hardcoded PR #7 to dynamic monitoring [#49](https://github.com/renshangh/classes/issues/49)
 - [ ] **Lesson Generator Skill (E-3)** — Implementation of EN/ZH lesson pack generation [#36](https://github.com/renshangh/classes/issues/36)
 - [ ] **Class Insights Skill (E-4)** — Implementation of poll/blocker summarization [#37](https://github.com/renshangh/classes/issues/37)
 
