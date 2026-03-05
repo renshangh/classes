@@ -133,33 +133,33 @@ mindmap
 ### Epic A – Teaching Delivery Operating System
 | # | Issue Title | Description / Acceptance Criteria | Labels |
 |---|-------------|-----------------------------------|--------|
-| [ ] A-1 | `Runbook: Live class workflow` [#23](https://github.com/renshangh/classes/issues/23) | Document procedures (check-ins, start-up, wrap-up). Include Telegram & Google Meet steps. | `process`, `epic-A` |
+| [x] A-1 | `Runbook: Live class workflow` [#23](https://github.com/renshangh/classes/issues/23) | Document procedures (check-ins, start-up, wrap-up). Include Telegram & Google Meet steps. | `process`, `epic-A` |
 | [ ] A-2 | `Runbook: Demo protocol` [#24](https://github.com/renshangh/classes/issues/24) | Define happy-path demo flow + failure-recovery steps. Checklist for instructors. | `process`, `demo`, `epic-A` |
 | [ ] A-3 | `Runbook: Exercise protocol` [#24](https://github.com/renshangh/classes/issues/24) | Template for timed labs, pass-criteria, and submission mechanics. | `process`, `exercise`, `epic-A` |
-| [ ] A-4 | `Runbook: In-class issue triage` | Outline how to capture student issues and resolve in real time. SLA ≤ 5 min. | `process`, `triage`, `epic-A` |
+| [ ] A-4 | `Runbook: In-class issue triage` [#28](https://github.com/renshangh/classes/issues/28) | Outline how to capture student issues and resolve in real time. SLA ≤ 5 min. | `process`, `triage`, `epic-A` |
 
 ### Epic B – Student Experience System
 | # | Issue Title | Description / Acceptance Criteria | Labels |
 |---|-------------|-----------------------------------|--------|
-| [ ] B-1 | `Checklist: Pre-class readiness` [#18](https://github.com/renshangh/classes/issues/18) | Technical + account + LLM readiness checklist. Telegram reminder bot. | `student-exp`, `epic-B` |
-| [ ] B-2 | `Template: Post-class reinforcement loop` | Template for homework reminders, feedback, and office-hour scheduling. | `template`, `epic-B` |
-| [ ] B-3 | `Form: Stuck-protocol issue template` | GitHub issue template for students who get “stuck”. | `issue-template`, `epic-B` |
-| [ ] B-4 | `Tracker: Student progress board` | GitHub Project board with status labels (e.g., `feedback-given`). | `project-board`, `epic-B` |
+| [ ] B-1 | `Checklist: Pre-class readiness` [#29](https://github.com/renshangh/classes/issues/29) | Technical + account + LLM readiness checklist. Telegram reminder bot. | `student-exp`, `epic-B` |
+| [ ] B-2 | `Template: Post-class reinforcement loop` [#30](https://github.com/renshangh/classes/issues/30) | Template for homework reminders, feedback, and office-hour scheduling. | `template`, `epic-B` |
+| [ ] B-3 | `Form: Stuck-protocol issue template` [#31](https://github.com/renshangh/classes/issues/31) | GitHub issue template for students who get “stuck”. | `issue-template`, `epic-B` |
+| [ ] B-4 | `Tracker: Student progress board` [#32](https://github.com/renshangh/classes/issues/32) | GitHub Project board with status labels (e.g., `feedback-given`). | `project-board`, `epic-B` |
 
 ### Epic C – Content Architecture
 | # | Issue Title | Description / Acceptance Criteria | Labels |
 |---|-------------|-----------------------------------|--------|
 | [x] C-1 | `Standard: Bilingual format` [#14](https://github.com/renshangh/classes/issues/14) | Define markdown schema for side-by-side EN/ZH sections. | `content`, `bilingual`, `epic-C` |
 | [ ] C-2 | `Template: Lesson skeleton` [#17](https://github.com/renshangh/classes/issues/17) | Lesson folder structure (README, slides, code, teacher-notes). | `template`, `epic-C` |
-| [ ] C-3 | `Template: Assignment & rubric` | Markdown assignment template + rubric table for Homework Reviewer skill. | `template`, `epic-C` |
-| [ ] C-4 | `Pattern: Teacher-vs-student handouts` | Split instructor guidance from student material. | `pattern`, `handouts`, `epic-C` |
+| [ ] C-3 | `Template: Assignment & rubric` [#33](https://github.com/renshangh/classes/issues/33) | Markdown assignment template + rubric table for Homework Reviewer skill. | `template`, `epic-C` |
+| [ ] C-4 | `Pattern: Teacher-vs-student handouts` [#34](https://github.com/renshangh/classes/issues/34) | Split instructor guidance from student material. | `pattern`, `handouts`, `epic-C` |
 
 ### Epic D – GitHub Workflow + Automation
 | # | Issue Title | Description / Acceptance Criteria | Labels |
 |---|-------------|-----------------------------------|--------|
 | [ ] D-1 | `Issue template: Homework submission` [#25](https://github.com/renshangh/classes/issues/25) | GitHub issue template for students to submit homework. | `issue-template`, `epic-D` |
 | [ ] D-2 | `Issue template: Blocker / help request` [#25](https://github.com/renshangh/classes/issues/25) | Template for students to raise blockers during class. | `issue-template`, `epic-D` |
-| [ ] D-3 | `PR template: Content checklist` | PR template enforcing grammar, bilingual check, rubric alignment. | `pr-template`, `epic-D` |
+| [ ] D-3 | `PR template: Content checklist` [#35](https://github.com/renshangh/classes/issues/35) | PR template enforcing grammar, bilingual check, rubric alignment. | `pr-template`, `epic-D` |
 | [x] D-4 | `Label taxonomy` | Create set of labels (e.g., `student-help`, `content-update`). | `labels`, `epic-D` |
 | [x] D-5 | `Milestone scheme` [#12](https://github.com/renshangh/classes/issues/12) | Define milestones for class releases (v1.0, v1.1, …). | `milestones`, `epic-D` |
 
@@ -168,18 +168,18 @@ mindmap
 |---|-------------|-----------------------------------|--------|
 | [ ] E-1 | `Skill matrix: Current vs needed` [#26](https://github.com/renshangh/classes/issues/26) | Audit existing skills and list gaps (Homework Reviewer, Lesson Gen). | `analysis`, `epic-E` |
 | [ ] E-2 | `Skill: Homework reviewer` [#26](https://github.com/renshangh/classes/issues/26) | Implement skill to receive PR, run rubric checks, post feedback. | `skill`, `homework`, `epic-E` |
-| [ ] E-3 | `Skill: Lesson pack generator` | Build skill to produce EN/ZH lesson folders from high-level outline. | `skill`, `generation`, `epic-E` |
-| [ ] E-4 | `Skill: Class insights summarizer` | Aggregate checkpoint polls and blockers for the instructor. | `skill`, `insights`, `epic-E` |
+| [ ] E-3 | `Skill: Lesson pack generator` [#36](https://github.com/renshangh/classes/issues/36) | Build skill to produce EN/ZH lesson folders from high-level outline. | `skill`, `generation`, `epic-E` |
+| [ ] E-4 | `Skill: Class insights summarizer` [#37](https://github.com/renshangh/classes/issues/37) | Aggregate checkpoint polls and blockers for the instructor. | `skill`, `insights`, `epic-E` |
 | [ ] E-5 | `Skill: EN-ZH Pedagogy translator` | Translation skill tuned for educational content. | `skill`, `pedagogy`, `epic-E` |
-| [ ] E-6 | `Process: AI change-watch` | Monthly review to capture new LLM models or OpenClaw updates. | `process`, `epic-E` |
+| [ ] E-6 | `Process: AI change-watch` [#38](https://github.com/renshangh/classes/issues/38) | Monthly review to capture new LLM models or OpenClaw updates. | `process`, `epic-E` |
 
 ### Epic F – Quality & Future-Proofing
 | # | Issue Title | Description / Acceptance Criteria | Labels |
 |---|-------------|-----------------------------------|--------|
-| [ ] F-1 | `KPI definition: Learning metrics` | Completion rate, unblock time, homework quality score. | `metrics`, `quality`, `epic-F` |
-| [ ] F-2 | `Review: Curriculum freshness` | Recurring monthly audit for outdated content. | `recurring`, `review`, `epic-F` |
-| [ ] F-3 | `Release process: Versioned packs` | Document how to tag releases (v1.0, v1.1…) and generate notes. | `release`, `versioning`, `epic-F` |
-| [ ] F-4 | `Pilot: New AI tool integration` | Design pilot process for adding new AI tools to the school stack. | `pilot`, `epic-F` |
+| [ ] F-1 | `KPI definition: Learning metrics` [#39](https://github.com/renshangh/classes/issues/39) | Completion rate, unblock time, homework quality score. | `metrics`, `quality`, `epic-F` |
+| [ ] F-2 | `Review: Curriculum freshness` [#40](https://github.com/renshangh/classes/issues/40) | Recurring monthly audit for outdated content. | `recurring`, `review`, `epic-F` |
+| [ ] F-3 | `Release process: Versioned packs` [#41](https://github.com/renshangh/classes/issues/41) | Document how to tag releases (v1.0, v1.1…) and generate notes. | `release`, `versioning`, `epic-F` |
+| [ ] F-4 | `Pilot: New AI tool integration` [#42](https://github.com/renshangh/classes/issues/42) | Design pilot process for adding new AI tools to the school stack. | `pilot`, `epic-F` |
 
 ### Epic G – Marketing Strategy & Outreach (MOVED TO EXTERNAL PROJECT)
 | # | Issue Title | Description / Acceptance Criteria | Labels |
