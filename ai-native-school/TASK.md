@@ -119,10 +119,11 @@ mindmap
 - [x] **Epic C-2** — Define Standard Lesson Skeleton [#17](https://github.com/renshangh/classes/issues/17)
 
 ### IN_PROGRESS
-- [ ] **Infrastructure Integration** — Finalizing the connection between the Telegram UI and Lesson Skeleton (Epic B & C)
+- [ ] **Build Lesson 01** — Introduction to AI-Native School curriculum [#20](https://github.com/renshangh/classes/issues/20)
+- [ ] **Setup Support Triage** — Implementation of Telegram student support bot [#21](https://github.com/renshangh/classes/issues/21)
 
 ### NEXT
-- [ ] **Epic G** — Strategy: External Marketing Project (External focus)
+- [ ] **Epic C-3** — Template: Assignment & rubric
 
 ---
 
