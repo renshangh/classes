@@ -131,8 +131,8 @@ mindmap
 - [ ] **QA Simulation: Pilot Lesson 01** — Sub-agent persona test for content delivery and interaction [#46](https://github.com/renshangh/classes/issues/46)
   *   **Bugs Found**: [#48](https://github.com/renshangh/classes/issues/48)
 - [ ] **Dynamic Heartbeat: Monitor All PRs** — Move from hardcoded PR #7 to dynamic monitoring [#49](https://github.com/renshangh/classes/issues/49)
-- [ ] **Lesson Generator Skill (E-3)** — Implementation of EN/ZH lesson pack generation [#36](https://github.com/renshangh/classes/issues/36)
-- [ ] **Class Insights Skill (E-4)** — Implementation of poll/blocker summarization [#37](https://github.com/renshangh/classes/issues/37)
+- [ ] **Lesson Generator Skill (E-3)** — Prototype implementation complete in ai-native-school/skills/lesson_gen.py [#36](https://github.com/renshangh/classes/issues/36)
+- [ ] **Class Insights Skill (E-4)** — Prototype implementation complete in ai-native-school/skills/class_insights.py [#37](https://github.com/renshangh/classes/issues/37)
 
 ### FUTURE
 - [ ] **AI Instructor Integration** — Transitioning from bot assistant to primary teaching delivery role.
