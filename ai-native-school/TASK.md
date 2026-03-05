@@ -201,6 +201,14 @@ mindmap
 |---|-------------|-----------------------------------|--------|
 | [ ] G-1 | `Strategy: External Marketing Project` | *Note: Marketing has been moved to a separate dedicated project repository.* | `marketing`, `epic-G` |
 
+### EPIC I – QA & Quality Assurance (Testing the School)
+| # | Issue Title | Description / Acceptance Criteria | Labels |
+|---|-------------|-----------------------------------|--------|
+| [ ] I-1 | `QA: Student Persona Simulation` [#46](https://github.com/renshangh/classes/issues/46) | Use a sub-agent to "act" as a student (ranging from expert to non-technical) to test the bot interaction. | `qa`, `epic-I` |
+| [ ] I-2 | `QA: Content Accuracy Audit` [#47](https://github.com/renshangh/classes/issues/47) | Peer-review (Aether/Sarah cross-check) for bilingual accuracy and link functionality. | `qa`, `epic-I` |
+| [ ] I-3 | `QA: Infrastructure Load Test` | Verify bot responsiveness and GitHub issue creation limits under simulated load. | `qa`, `epic-I` |
+| [ ] I-4 | `QA: Edge-Case Triage` | Test "Stuck Protocol" with garbled inputs or irrelevant images to ensure robust triage. | `qa`, `epic-I` |
+
 ---
 
 ## 7) Immediate Next Action
