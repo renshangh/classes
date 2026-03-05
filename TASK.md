@@ -15,7 +15,7 @@ Scale the AI-Native School using a GitHub-First, lean execution model.
 | Priority | Issue/PR | Status | Description |
 | :--- | :--- | :--- | :--- |
 | **P0** | [#46](https://github.com/renshangh/classes/issues/46) | 🚧 Doing | QA Simulation: Pilot Lesson 01 (Xiao Ming persona) |
-| **P0** | [#2](https://github.com/renshangh/classes/issues/2) | 🚧 Doing | Define GitHub-First Teaching Workflow |
+| **P0** | [PR #56](https://github.com/renshangh/classes/pull/56) | 👀 Review | Define GitHub-First Teaching Workflow |
 | **P0** | [PR #54](https://github.com/renshangh/classes/pull/54) | 👀 Review | Lesson 01 Curriculum & Handouts |
 | **P1** | [#3](https://github.com/renshangh/classes/issues/3) | ⏭ Next | Research: AI Delivery Best Practices |
 | **P1** | [#4](https://github.com/renshangh/classes/issues/4) | ⏭ Next | Skills Backlog: Class Operations |
