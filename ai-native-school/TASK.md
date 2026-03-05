@@ -128,6 +128,7 @@ mindmap
 - [x] **AI Skill Matrix Audit** — Audit of current skills and gap analysis for HW Reviewer & Lesson Gen [#26](https://github.com/renshangh/classes/issues/26)
 
 ### IN_PROGRESS
+- [ ] **Curriculum Review: Lesson 01** — Initial curriculum, handouts, and support guides are ready for review [PR #54](https://github.com/renshangh/classes/pull/54)
 - [ ] **QA Simulation: Pilot Lesson 01** — Sub-agent persona test for content delivery and interaction [#46](https://github.com/renshangh/classes/issues/46)
   *   **Bugs Found**: [#48](https://github.com/renshangh/classes/issues/48)
 - [ ] **Dynamic Heartbeat: Monitor All PRs** — Move from hardcoded PR #7 to dynamic monitoring [#49](https://github.com/renshangh/classes/issues/49)
