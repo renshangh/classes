@@ -144,7 +144,7 @@ mindmap
 ### Epic C – Content Architecture
 | # | Issue Title | Description / Acceptance Criteria | Labels |
 |---|-------------|-----------------------------------|--------|
-| [ ] C-1 | `Standard: Bilingual format` [#14](https://github.com/renshangh/classes/issues/14) | Define markdown schema for side-by-side EN/ZH sections. | `content`, `bilingual`, `epic-C` |
+| [x] C-1 | `Standard: Bilingual format` [#14](https://github.com/renshangh/classes/issues/14) | Define markdown schema for side-by-side EN/ZH sections. | `content`, `bilingual`, `epic-C` |
 | [ ] C-2 | `Template: Lesson skeleton` | Lesson folder structure (README, slides, code, teacher-notes). | `template`, `epic-C` |
 | [ ] C-3 | `Template: Assignment & rubric` | Markdown assignment template + rubric table for Homework Reviewer skill. | `template`, `epic-C` |
 | [ ] C-4 | `Pattern: Teacher-vs-student handouts` | Split instructor guidance from student material. | `pattern`, `handouts`, `epic-C` |
@@ -179,5 +179,5 @@ mindmap
 ---
 
 ## 7) Immediate Next Action
-1. Create a GitHub issue for Epic C-1 (Bilingual Standard).
-2. Begin implementation of side-by-side markdown schema.
+1. Create GitHub issue for Epic C-2 (Lesson Skeleton).
+2. Begin implementation of standardized folder structure.
