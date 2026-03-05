@@ -134,6 +134,12 @@ mindmap
 - [ ] **Dynamic Heartbeat: Monitor All PRs** — Move from hardcoded PR #7 to dynamic monitoring [#49](https://github.com/renshangh/classes/issues/49)
 - [ ] **Lesson Generator Skill (E-3)** — Prototype implementation complete in ai-native-school/skills/lesson_gen.py [#36](https://github.com/renshangh/classes/issues/36)
 - [ ] **Class Insights Skill (E-4)** — Prototype implementation complete in ai-native-school/skills/class_insights.py [#37](https://github.com/renshangh/classes/issues/37)
+- [ ] **GitHub-First Teaching Workflow** — Establish operating model for materials, homework, and triage [#2](https://github.com/renshangh/classes/issues/2) (Sarah Owner)
+
+### NEXT
+- [ ] **Research: AI Delivery Best Practices** — Recommend formats for beginner AI classes [#3](https://github.com/renshangh/classes/issues/3) (Sarah Owner)
+- [ ] **Skills Backlog: Class Operations** — Map operations to OpenClaw skills and identify gaps [#4](https://github.com/renshangh/classes/issues/4) (Sarah Owner)
+- [ ] **Epic C-3** — Template: Assignment & rubric
 
 ### FUTURE
 - [ ] **AI Instructor Integration** — Transitioning from bot assistant to primary teaching delivery role.
