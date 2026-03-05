@@ -7,87 +7,178 @@ Create a reliable, restart-safe, privacy-safe workflow so Sarah can keep progres
 
 ## 2) Operating Policy (Workflow First)
 
-### A. Scope Gate (MUST run first each cycle)
+### A. GitHub Issue First (CRITICAL)
+Before taking action on any item in the Tasks list section, **create a GitHub issue first** and then start work under that issue.
+- **If you pick an existing task-list item to work on**:
+  1. Create a GitHub issue for it (or confirm one already exists).
+  2. Add the issue link/ID back into `TASK.md`.
+  3. Only then begin implementation.
+- **If a new problem/task arises during work**:
+  1. Create a GitHub issue first.
+  2. Then proceed with the work under that new issue.
+  3. Update `TASK.md` to reflect the new item + issue link.
+- **Sync Rule**: `TASK.md` must stay synced with GitHub. Every in-progress or planned task should have a corresponding GitHub issue. Close or mark completed tasks in `TASK.md` when the GitHub issue is closed.
+
+### B. Scope Gate (MUST run first each cycle)
 1. Detect chat context:
    - **Group chat** → public-safe mode only (no personal memory/details)
    - **Direct/private work session** → full project execution mode
 2. Reject/redirect sensitive tasks if context is group and content is private.
 
-### B. Ralph Loop Cycle (one issue per cycle)
+### C. Ralph Loop Cycle (one issue per cycle)
 1. **Pick next item** from backlog (`TASK.md` queue below)
 2. **Create/update branch** for that single item
 3. **Implement** smallest shippable change
 4. **Run checks** (tests/lint/build as available)
 5. **Commit + push** with clear message
 6. **Open or update PR**
-7. **Post concise status**:
-   - what changed
-   - evidence (tests/checks)
-   - blocker or next action
+7. **Post concise status**
 8. **Persist state** in files (`TASK.md`, optional `STATUS.md`) so restart can resume
 9. Repeat next cycle
 
-### C. Stop Conditions
-- No actionable issue remains
-- Blocked by missing decision/credentials/approval
-- Failing checks with no safe auto-fix path
+---
 
-### D. Restart Recovery Rules
-After gateway/agent restart:
-1. Read `TASK.md` first
-2. Resume item marked `IN_PROGRESS`
-3. If none marked, resume highest-priority `TODO`
-4. Re-validate branch/PR state before new work
+## 3) Project Mind Map
 
-### E. Privacy Guardrails
-- Never post personal health/schedule/project-private details to group chats.
-- Group updates must be sanitized, task-focused, and minimal.
-- Sensitive context stays in private session/files only.
+```mermaid
+mindmap
+  root((AI-based Online Learning School))
+    Core Stack
+      Telegram
+        Instant messaging
+        Class alerts
+        Support triage
+      Google Meet
+        Live teaching
+        Screen sharing
+        Recording
+      GitHub
+        Source of truth
+        Materials repo
+        Homework + Issues + PR workflow
+    Student Lifecycle
+      Pre-class
+        Device readiness
+        OpenClaw readiness
+        LLM access readiness
+      In-class
+        Mini lecture
+        Live demo
+        Guided practice
+        Checkpoint polls
+      Post-class
+        Homework submission
+        Feedback loop
+        Office hours
+    Content System
+      Bilingual EN/ZH
+      Student track
+      Teacher track
+      Session folders
+      Rubrics and templates
+    AI Skill Layer
+      Existing skills
+        github
+        summarize
+        gemini
+      New custom skills
+        Homework reviewer
+        Lesson generator
+        Class checkpoint summarizer
+        EN‑ZH pedagogy translator
+    Operations
+      Issue triage workflow
+      SLA for student support
+      Weekly review + iteration
+      Versioning/release of class packs
+    Governance
+      PR‑first changes
+      Owner approval gates
+      Quality standards
+      Data/privacy guardrails
+```
 
 ---
 
-## 3) Working Queue
+## 4) Assignment Split
+- **Sarah lead:** Epics A, C, E (pedagogy, architecture, skill design)
+- **Aether assist/execute:** Epics B, D, parts of E implementation
+- **Randy approval/steer:** Milestones, priorities, release gates
+
+---
+
+## 5) Working Queue
+
+### DONE
+- [x] **Define and finalize this workflow** with Randy (owner approval)
+- [x] **Issue #5** — Implement Student-facing delivery architecture (EN/ZH)
+- [x] **PR #11** — Initialize roadmap and move TASK.md to ai-native-school/
+- [x] **Issue #9** — Set up Google Drive folder for classroom infrastructure
 
 ### IN_PROGRESS
-- [ ] Implement Issue #5: Student‑Facing Delivery Architecture (EN/ZH)
+- (none)
 
 ### NEXT
-- [ ] Confirm pending PR is approved by Randy
-- [ ] Pull latest default branch after approval
-- [ ] Identify next open issue to implement
-- [ ] Start first Ralph cycle on that issue
-
-### BACKLOG
-- [ ] Add `STATUS.md` template for per-cycle logs
-- [ ] Add restart checklist script/doc (quick recovery steps)
-- [ ] Add "group-safe summary" template for public updates
-- [ ] **Issue #9** – Set up Google Drive folder for classroom infrastructure
-
-### BLOCKED / NEEDS HUMAN INPUT
-- [ ] Repository + issue source to target next (repo name / issue list)
-- [ ] Merge policy preference (squash/rebase/merge)
-- [ ] Required CI gates before PR is considered ready
+- [ ] **Epic D-4 & D-5** — Setup Label Taxonomy and Milestone Scheme on GitHub
+- [ ] **Epic C-1 & C-2** — Define Bilingual Content Standard and Lesson Skeleton
 
 ---
 
-## 4) Definition of Done (per issue)
-- Code implemented and pushed
-- Relevant checks pass (or failures documented with cause)
-- PR opened/updated with summary
-- `TASK.md` updated (`IN_PROGRESS` -> done, next item promoted)
+## 6) Detailed Roadmap (Epics A–F)
+
+### Epic A – Teaching Delivery Operating System
+| # | Issue Title | Description / Acceptance Criteria | Labels |
+|---|-------------|-----------------------------------|--------|
+| [ ] A-1 | `Runbook: Live class workflow` | Document procedures (check-ins, start-up, wrap-up). Include Telegram & Google Meet steps. | `process`, `epic-A` |
+| [ ] A-2 | `Runbook: Demo protocol` | Define happy-path demo flow + failure-recovery steps. Checklist for instructors. | `process`, `demo`, `epic-A` |
+| [ ] A-3 | `Runbook: Exercise protocol` | Template for timed labs, pass-criteria, and submission mechanics. | `process`, `exercise`, `epic-A` |
+| [ ] A-4 | `Runbook: In-class issue triage` | Outline how to capture student issues and resolve in real time. SLA ≤ 5 min. | `process`, `triage`, `epic-A` |
+
+### Epic B – Student Experience System
+| # | Issue Title | Description / Acceptance Criteria | Labels |
+|---|-------------|-----------------------------------|--------|
+| [ ] B-1 | `Checklist: Pre-class readiness` | Technical + account + LLM readiness checklist. Telegram reminder bot. | `student-exp`, `epic-B` |
+| [ ] B-2 | `Template: Post-class reinforcement loop` | Template for homework reminders, feedback, and office-hour scheduling. | `template`, `epic-B` |
+| [ ] B-3 | `Form: Stuck-protocol issue template` | GitHub issue template for students who get “stuck”. | `issue-template`, `epic-B` |
+| [ ] B-4 | `Tracker: Student progress board` | GitHub Project board with status labels (e.g., `feedback-given`). | `project-board`, `epic-B` |
+
+### Epic C – Content Architecture
+| # | Issue Title | Description / Acceptance Criteria | Labels |
+|---|-------------|-----------------------------------|--------|
+| [ ] C-1 | `Standard: Bilingual format` | Define markdown schema for side-by-side EN/ZH sections. | `content`, `bilingual`, `epic-C` |
+| [ ] C-2 | `Template: Lesson skeleton` | Lesson folder structure (README, slides, code, teacher-notes). | `template`, `epic-C` |
+| [ ] C-3 | `Template: Assignment & rubric` | Markdown assignment template + rubric table for Homework Reviewer skill. | `template`, `epic-C` |
+| [ ] C-4 | `Pattern: Teacher-vs-student handouts` | Split instructor guidance from student material. | `pattern`, `handouts`, `epic-C` |
+
+### Epic D – GitHub Workflow + Automation
+| # | Issue Title | Description / Acceptance Criteria | Labels |
+|---|-------------|-----------------------------------|--------|
+| [ ] D-1 | `Issue template: Homework submission` | GitHub issue template for students to submit homework. | `issue-template`, `epic-D` |
+| [ ] D-2 | `Issue template: Blocker / help request` | Template for students to raise blockers during class. | `issue-template`, `epic-D` |
+| [ ] D-3 | `PR template: Content checklist` | PR template enforcing grammar, bilingual check, rubric alignment. | `pr-template`, `epic-D` |
+| [x] D-4 | `Label taxonomy` | Create set of labels (e.g., `student-help`, `content-update`). | `labels`, `epic-D` |
+| [x] D-5 | `Milestone scheme` [#12](https://github.com/renshangh/classes/issues/12) | Define milestones for class releases (v1.0, v1.1, …). | `milestones`, `epic-D` |
+
+### Epic E – AI Skills Roadmap (OpenClaw)
+| # | Issue Title | Description / Acceptance Criteria | Labels |
+|---|-------------|-----------------------------------|--------|
+| [ ] E-1 | `Skill matrix: Current vs needed` | Audit existing skills and list gaps (Homework Reviewer, Lesson Gen). | `analysis`, `epic-E` |
+| [ ] E-2 | `Skill: Homework reviewer` | Implement skill to receive PR, run rubric checks, post feedback. | `skill`, `homework`, `epic-E` |
+| [ ] E-3 | `Skill: Lesson pack generator` | Build skill to produce EN/ZH lesson folders from high-level outline. | `skill`, `generation`, `epic-E` |
+| [ ] E-4 | `Skill: Class insights summarizer` | Aggregate checkpoint polls and blockers for the instructor. | `skill`, `insights`, `epic-E` |
+| [ ] E-5 | `Skill: EN-ZH Pedagogy translator` | Translation skill tuned for educational content. | `skill`, `pedagogy`, `epic-E` |
+| [ ] E-6 | `Process: AI change-watch` | Monthly review to capture new LLM models or OpenClaw updates. | `process`, `epic-E` |
+
+### Epic F – Quality & Future-Proofing
+| # | Issue Title | Description / Acceptance Criteria | Labels |
+|---|-------------|-----------------------------------|--------|
+| [ ] F-1 | `KPI definition: Learning metrics` | Completion rate, unblock time, homework quality score. | `metrics`, `quality`, `epic-F` |
+| [ ] F-2 | `Review: Curriculum freshness` | Recurring monthly audit for outdated content. | `recurring`, `review`, `epic-F` |
+| [ ] F-3 | `Release process: Versioned packs` | Document how to tag releases (v1.0, v1.1…) and generate notes. | `release`, `versioning`, `epic-F` |
+| [ ] F-4 | `Pilot: New AI tool integration` | Design pilot process for adding new AI tools to the school stack. | `pilot`, `epic-F` |
 
 ---
 
-## 5) Communication Pattern
-- **Private work thread/session:** full detail
-- **Group chat:** short safe status only
-  - Example: "Issue X implemented, PR #123 ready for review, CI passing."
-
----
-
-## 6) Immediate Next Action
-Once Randy approves pending PR, begin the first post-approval cycle:
-1. Sync branch
-2. Pick next issue
-3. Implement and open/update PR
-4. Report status
+## 7) Immediate Next Action
+1. Resolve `gog` authentication for Issue #9.
+2. Complete D-5 (GitHub Milestone Scheme).
