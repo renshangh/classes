@@ -119,9 +119,18 @@ mindmap
 - [x] **Epic C-2** — Define Standard Lesson Skeleton [#17](https://github.com/renshangh/classes/issues/17)
 
 - [x] **Build Lesson 01** — Introduction to AI-Native School curriculum [#20](https://github.com/renshangh/classes/issues/20)
+- [x] **Setup Support Triage** — Implementation of Telegram student support bot [#21](https://github.com/renshangh/classes/issues/21)
+- [x] **Issue Templates** — GitHub templates for homework/stuck/improvement [#25](https://github.com/renshangh/classes/issues/25)
+- [x] **Assignment & Rubric Template** — Standard format for Sarah/Aether grading [#33](https://github.com/renshangh/classes/issues/33)
+- [x] **Teacher/Student Pattern** — Separation of instructor guidance and handout [#34](https://github.com/renshangh/classes/issues/34)
+- [x] **Learning KPIs & Process** — KPIs and review process defined [#39](https://github.com/renshangh/classes/issues/39)
 
 ### IN_PROGRESS
-- [ ] **Setup Support Triage** — Implementation of Telegram student support bot [#21](https://github.com/renshangh/classes/issues/21)
+- [ ] **AI Skill Matrix Audit** — Audit of current skills and gap analysis for HW Reviewer & Lesson Gen [#26](https://github.com/renshangh/classes/issues/26)
+
+### NEXT
+- [ ] **Epic E-3** — Skill: Lesson pack generator [#36](https://github.com/renshangh/classes/issues/36)
+- [ ] **Epic E-4** — Skill: Class insights summarizer [#37](https://github.com/renshangh/classes/issues/37)
 
 ### NEXT
 - [ ] **Epic C-3** — Template: Assignment & rubric
