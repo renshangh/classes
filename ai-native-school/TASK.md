@@ -136,7 +136,7 @@ mindmap
 ### Epic B – Student Experience System
 | # | Issue Title | Description / Acceptance Criteria | Labels |
 |---|-------------|-----------------------------------|--------|
-| [ ] B-1 | `Checklist: Pre-class readiness` | Technical + account + LLM readiness checklist. Telegram reminder bot. | `student-exp`, `epic-B` |
+| [ ] B-1 | `Checklist: Pre-class readiness` [#18](https://github.com/renshangh/classes/issues/18) | Technical + account + LLM readiness checklist. Telegram reminder bot. | `student-exp`, `epic-B` |
 | [ ] B-2 | `Template: Post-class reinforcement loop` | Template for homework reminders, feedback, and office-hour scheduling. | `template`, `epic-B` |
 | [ ] B-3 | `Form: Stuck-protocol issue template` | GitHub issue template for students who get “stuck”. | `issue-template`, `epic-B` |
 | [ ] B-4 | `Tracker: Student progress board` | GitHub Project board with status labels (e.g., `feedback-given`). | `project-board`, `epic-B` |
