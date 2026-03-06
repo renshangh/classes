@@ -18,7 +18,7 @@ Scale the AI-Native School using a GitHub-First, lean execution model.
 | **P0** | [#2](https://github.com/renshangh/classes/issues/2) | ✅ Done | [Program Ops] GitHub-First Teaching Workflow (PR #58) |
 | **P0** | [PR #54](https://github.com/renshangh/classes/pull/54) | ✅ Done | Lesson 01 Curriculum & Handouts |
 | **P1** | [#3](https://github.com/renshangh/classes/issues/3) | 👀 Review | [AI Course Delivery Research (PR #60)](https://github.com/renshangh/classes/pull/60) |
-| **P1** | [#4](https://github.com/renshangh/classes/issues/4) | ⏭ Next | Skills Backlog: Class Operations |
+| **P1** | [#4](https://github.com/renshangh/classes/issues/4) | 👀 Review | [Skills Backlog: Class Operations (PR #61)](https://github.com/renshangh/classes/pull/61) |
 | **P2** | [#49](https://github.com/renshangh/classes/issues/49) | ⏭ Next | Feature: Dynamic Heartbeat for All PRs |
 
 ---
