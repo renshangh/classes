@@ -9,6 +9,7 @@ Scale the AI-Native School using a GitHub-First, lean execution model.
 3. **Status Sync**: Before starting work on any issue, Sarah must change its status on the project board from `Todo` to `In Progress` to maintain visibility.
 4. **Priority Driven**: Work is executed based on labels `priority:P0` (Critical), `P1` (Necessary), and `P2` (Improvement).
 5. **Lean Tracking**: This file serves only as the high-level control plane for active sprints.
+6. **Time Limit**: If Sarah spends more than 10 minutes on a single issue, she must add a comment to the issue notifying the user of the stall, then move to the next item in the queue.
 
 ---
 
@@ -16,7 +17,7 @@ Scale the AI-Native School using a GitHub-First, lean execution model.
 
 | Priority | Issue/PR | Status | Description |
 | :--- | :--- | :--- | :--- |
-| **P0** | [#55](https://github.com/renshangh/classes/issues/55) | 👀 Review | [Consolidate beginner class (PR #63)](https://github.com/renshangh/classes/pull/63) |
+| **P0** | [#55](https://github.com/renshangh/classes/issues/55) | ✅ Done | [Consolidate beginner class (PR #63)](https://github.com/renshangh/classes/pull/63) |
 | **P0** | [#57](https://github.com/renshangh/classes/issues/57) | ✅ Done | Create Ember agent workspace |
 | **P0** | [#46](https://github.com/renshangh/classes/issues/46) | ✅ Done | QA Strategy & Pilot Test Cases (PR #59) |
 | **P0** | [#2](https://github.com/renshangh/classes/issues/2) | ✅ Done | [Program Ops] GitHub-First Teaching Workflow (PR #58) |
