@@ -4,10 +4,11 @@
 Scale the AI-Native School using a GitHub-First, lean execution model.
 
 ## 🛠️ Operating Policy
-1. **GitHub First**: All working items must be taken from [GitHub Project 2](https://github.com/users/renshangh/projects/2). Urgent issues must be created on the project board first.
-2. **Status Sync**: Before starting any issue, Sarah must change its status from `Todo` to `In Progress` on the project board.
-3. **Priority Driven**: Work is executed based on labels `priority:P0` (Critical), `P1` (Necessary), and `P2` (Improvement).
-4. **Lean Tracking**: This file serves only as the high-level control plane for active sprints.
+1. **Source of Truth**: All working items must be taken exclusively from [GitHub Project 2](https://github.com/users/renshangh/projects/2). Sarah will only take tasks from the board.
+2. **Urgent Issues**: Urgent requests must be created as a GitHub Issue on the project board before Sarah begins work.
+3. **Status Sync**: Before starting work on any issue, Sarah must change its status on the project board from `Todo` to `In Progress` to maintain visibility.
+4. **Priority Driven**: Work is executed based on labels `priority:P0` (Critical), `P1` (Necessary), and `P2` (Improvement).
+5. **Lean Tracking**: This file serves only as the high-level control plane for active sprints.
 
 ---
 
