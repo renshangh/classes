@@ -23,26 +23,26 @@ def slugify(text):
     # Simple slug: lower, replace spaces with '-', keep alphanum
     return re.sub(r'[^a-z0-9-]', '', re.sub(r'\s+', '-', text.lower()))
 
-def create_lesson(topic, milestone=None):
+def create_lesson(topic, outline=None, milestone=None):
     slug = slugify(topic)
     # Determine next lesson number by scanning existing lesson folders
-    base_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../lessons'))
+    base_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '../lessons'))
     existing = [d for d in os.listdir(base_path) if os.path.isdir(os.path.join(base_path, d))]
     numbers = [int(re.split('[-_]', d)[0]) for d in existing if re.match(r'\d+', d)]
     next_num = max(numbers, default=0) + 1
     lesson_dir = os.path.join(base_path, f"{next_num:02d}-{slug}")
     os.makedirs(lesson_dir, exist_ok=True)
+    
+    # Placeholder for LLM generation
+    en_desc = outline if outline else f"Introduction to {topic}."
+    zh_desc = f"{topic} 的简介。"
+    
     # Files to generate
     files = {
-        'README.md': f"# Lesson {next_num:02d}: {topic}\n\n## Bilingual Content (Side‑by‑Side)\n\n| 🇺🇸 English | 🇨🇳 中文 |\n| :--- | :--- |\n| **Concept:** | **概念：** |\n| {topic} | {topic}（中文占位） |\n",
-        'handout.md': f"# Handout – Lesson {next_num:02d}\n\n> 🇺🇸 English summary...\n> 🇨🇳 中文摘要...\n",
-        'exercise.md': f"# Exercise – Lesson {next_num:02d}\n\n- **Task:** Introduce yourself to the class bot.\n- **Submission:** Use `/submit <repo‑url>` in Telegram.\n",
-        'rubrics.md': "# Rubric\n\n| Criterion | Points | Description |
-| :--- | :---: | :--- |
-| Logic/Accuracy | 10 | Correct understanding of the concept. |
-| Prompt Quality | 10 | Clear and specific bot command. |
-| Completion | 10 | Exercise completed as described. |
-"
+        'README.md': f"# Lesson {next_num:02d}: {topic}\n\n## Bilingual Content (Side‑by‑Side)\n\n| 🇺🇸 English | 🇨🇳 中文 |\n| :--- | :--- |\n| **Concept:** | **概念：** |\n| {en_desc} | {zh_desc} |\n",
+        'handout.md': f"# Handout – Lesson {next_num:02d}\n\n> 🇺🇸 English summary: Learn the basics of {topic}.\n> 🇨🇳 中文摘要: 学习 {topic} 的基础知识。\n",
+        'exercise.md': f"# Exercise – Lesson {next_num:02d}\n\n- **Task:** Practice the concepts of {topic}.\n- **Submission:** Link to your GitHub repo in the support chat.\n",
+        'rubrics.md': "# Rubric\n\n| Criterion | Points | Description |\n| :--- | :---: | :--- |\n| Logic/Accuracy | 10 | Correct implementation of {topic}. |\n| Quality | 10 | High-quality prompt/code. |\n"
     }
     for name, content in files.items():
         with open(os.path.join(lesson_dir, name), 'w') as f:
