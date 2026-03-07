@@ -5,22 +5,30 @@ description: Aggregates student checkpoint data, poll results, and common blocke
 
 # Class Insights Summarizer
 
-This skill aggregates data from student submissions and checkpoint responses to help teachers identify blockers and assess class progress.
+This skill provides a robust, CLI-enabled tool to aggregate student data and evaluate class progress.
 
-## When to Use
+## CLI Usage
 
-- "How is the class doing on the checkpoints?"
-- "Summarize common student blockers for Class 1."
-- "What's the success rate for Lesson 01?"
-
-## Workflow
-
-1.  **Identify Class Data**: Determine the class ID (e.g., `class-1`, `class-2`).
-2.  **Run Summarization Script**: Use `scripts/summarize_class.py` to pull data from the repository.
-3.  **Generate Report**: Present the aggregated checkpoints and blockers to the user.
-
-## Example
+The core summarizer is a standalone Python CLI. You can run it directly from the command line:
 
 ```bash
+# General usage
+python3 scripts/summarize_class.py <repo_path> <class_id>
+
+# Example
 python3 scripts/summarize_class.py . class-1
 ```
+
+## Quality Assurance & Testing
+
+All code within this skill is verified through automated tests. To run the test suite:
+
+```bash
+python3 scripts/test_summarize_class.py
+```
+
+## Workflow for AI Agents
+
+1.  **Identify Class Data**: Determine the class ID (e.g., `class-1`).
+2.  **Run Summarization Script**: Use the CLI to pull data from the repository.
+3.  **Generate Report**: Present the aggregated checkpoints and blockers to the user.
