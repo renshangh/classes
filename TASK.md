@@ -25,7 +25,7 @@ Scale the AI-Native School using a GitHub-First, lean execution model.
 | **P1** | [#3](https://github.com/renshangh/classes/issues/3) | ✅ Done | [AI Course Delivery Research (PR #60)](https://github.com/renshangh/classes/pull/60) |
 | **P1** | [#4](https://github.com/renshangh/classes/issues/4) | ✅ Done | [Skills Backlog: Class Operations (PR #61)](https://github.com/renshangh/classes/pull/61) |
 | **P1** | [#37](https://github.com/renshangh/classes/issues/37) | ✅ Done | [Class Insights Summarizer Skill (PR #66)](https://github.com/renshangh/classes/pull/66) |
-| **P1** | [#47](https://github.com/renshangh/classes/issues/47) | 🚧 Doing | Simulate First Pilot: Lesson 01 (QA Pilot) |
+| **P1** | [#47](https://github.com/renshangh/classes/issues/47) | ✅ Done | Simulate First Pilot: Lesson 01 (QA Pilot) |
 | **P1** | [#38](https://github.com/renshangh/classes/issues/38) | 🚧 In Progress | AI Change‑Watch Process (Epic E‑5) |
 | **P1** | [#36](https://github.com/renshangh/classes/issues/36) | ✅ Done | [Lesson Pack Generator Skill (PR #65)](https://github.com/renshangh/classes/pull/65) |
 | **P2** | [#49](https://github.com/renshangh/classes/issues/49) | ✅ Done | Feature: Dynamic Heartbeat for All PRs |
